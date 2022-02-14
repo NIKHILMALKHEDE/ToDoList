@@ -31,8 +31,11 @@ const item2 = new Item({
 const item3 = new Item({
   name:"<-- hit This to DELETE an Item"
 });
+const item4 = new Item({
+  name:"To add new List type '/name' in URL"
+});
 
-const defaultItems = [item1, item2, item3];
+const defaultItems = [item1, item2, item3,item4];
 
 const listSchema ={
   name: String,
